@@ -40,7 +40,9 @@ Create a web app hosted in Azure with a unique name, **Linux** as the OS and **J
 
 This template deploys a simple Linux Web Application with Java 8 and Tomcat 9 enabled allowing you to run Java applications in Azure.  
 
-The WebPlan is settled for Consumption. For more information about [Hosting Plans](https://azure.microsoft.com/pricing/details/app-service/linux) As a default, this template deploys the web app using the F1" (free tier) as the pricing tier for the hosting plan. It is ideal for development and test environments, for production environments you must consider different plans.
+The WebPlan is set for Consumption. For more information about [Hosting Plans](https://azure.microsoft.com/pricing/details/app-service/linux) As a default, this template deploys the web app using the F1" (free tier) as the pricing tier for the hosting plan. It is ideal for development and test environments, for production environments you must consider different plans.
+
+Note that the application will not run on Windows Web Apps.
 
 If you are new to Web App Services, see:
 
