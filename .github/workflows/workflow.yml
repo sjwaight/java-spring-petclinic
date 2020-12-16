@@ -20,8 +20,9 @@ env:
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}     # set GH repo secret with the publish profile of the web app
 
 jobs:
-  build-and-deploy:
-    name: Build and Deploy
+  build-and-deploy-test:
+    environment: Test
+    name: Build and Deploy to Test
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
